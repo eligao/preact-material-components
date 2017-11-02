@@ -1,7 +1,5 @@
 import {h, Component} from 'preact';
-import List from 'preact-material-components/List';
-import Formfield from 'preact-material-components/Formfield';
-import 'preact-material-components/List/style.css';
+import IconToggle from "preact-material-components/IconToggle";
 
 export default class ListPage extends Component {
   const toggleOnIcon = {
